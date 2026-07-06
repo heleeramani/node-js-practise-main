@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>This is a Home page</h1>
+
+    <h3><%= 1 + 2 %></h3>
+    <h3><%= 1 - 2 %></h3>
+    <h3><%= 1 * 2 %></h3>
+    <h3><%= 1 / 2 %></h3>
+    <h3><%= "Hello" + "Node" %></h3>
+    <h3><%= ["Hello", "Bonjour","Namste"] %></h3>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi nam,
+      laboriosam quia eligendi facere voluptatem. Tempore, quo sapiente nobis
+      error, fuga vero quia nam, impedit nulla tempora minus ratione
+      consequatur!
+    </p>
+    <button>Click Me!</button>
+
+    <!-- Note: before includes not write / -->
+    <%- include("includes/footer.ejs") %>
+  </body>
+</html>
